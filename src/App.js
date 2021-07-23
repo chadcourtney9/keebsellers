@@ -3,7 +3,7 @@ import NavMain from "./components/navBar/navbar.js";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HOME_PATH, SELLING_PATH, ISO_PATH, GROUPBUY_PATH, ORDERS_PATH, ACCOUNT_PATH, DISCOVER_path } from "./views";
 import { Switch, Route } from "react-router-dom";
-
+import HomePage from './components/homePage/homePage';
 
 
 function App() {
@@ -14,8 +14,9 @@ function App() {
         <Switch>
 
           <Route path={HOME_PATH} exact={true}>
-            {/* home page goes here */}
             <NavMain />
+            <HomePage />
+
           </Route>
 
           <Route path={GROUPBUY_PATH} exact={true}>
