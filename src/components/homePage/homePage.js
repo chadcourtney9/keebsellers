@@ -8,7 +8,6 @@ import "./homePage.css"
 function HomePage() {
 
 
-
     return (
         <div>
             <Carousel fade className="Carousel">
