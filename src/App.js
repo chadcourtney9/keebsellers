@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { HOME_PATH, SELLING_PATH, ISO_PATH, GROUPBUY_PATH, ORDERS_PATH, ACCOUNT_PATH, DISCOVER_path, POSTS_path } from "./views";
 import { Switch, Route } from "react-router-dom";
 import HomePage from './components/homePage/homePage';
-
+import GroupBuys from './components/groupBuys/groupBuys';
 
 function App() {
 
@@ -16,12 +16,12 @@ function App() {
           <Route path={HOME_PATH} exact={true}>
             <NavMain />
             <HomePage />
-
           </Route>
 
           <Route path={GROUPBUY_PATH} exact={true}>
             {/* group buys */}
             <NavMain />
+            <GroupBuys />
           </Route>
 
           <Route path={SELLING_PATH} exact={true}>
