@@ -3,10 +3,10 @@ import { Container, Carousel } from "react-bootstrap";
 import keyboard1 from "./homePage-images/tfue-board.jpg";
 import keyboard2 from "./homePage-images/red-board.jpg";
 import keyboard3 from "./homePage-images/large_thumb_b0a6.jpg";
-import "./homePage.css"
+import "./homePage.css";
+import ItemCard from "../cards/card";
 
 function HomePage() {
-
 
 
     return (
@@ -34,6 +34,9 @@ function HomePage() {
                     />
                 </Carousel.Item>
             </Carousel>
+            <Container>
+                <ItemCard />
+            </Container>
         </div>
     )
 }
