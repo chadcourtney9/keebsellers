@@ -7,9 +7,7 @@ function GroupBuys() {
 
     return (
         <div>
-            <span></span>
-            <span>Divider</span>
-            <span></span>
+
         </div>
     )
 }
