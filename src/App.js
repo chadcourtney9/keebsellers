@@ -51,7 +51,7 @@ function App() {
           <Route path={ACCOUNT_PATH} exact={true}>
             {/* Account path */}
             <NavMain />
-          </Route>\
+          </Route>
 
 
         </Switch>
