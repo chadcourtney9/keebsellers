@@ -5,6 +5,7 @@ import { HOME_PATH, SELLING_PATH, ISO_PATH, GROUPBUY_PATH, ORDERS_PATH, ACCOUNT_
 import { Switch, Route } from "react-router-dom";
 import HomePage from './components/homePage/homePage';
 import GroupBuys from './components/groupBuys/groupBuys';
+import DiscoverPage from './components/discover/discover';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Route path={DISCOVER_path} exact={true}>
             {/* discover path */}
             <NavMain />
+            <DiscoverPage />
           </Route>
 
           <Route path={ORDERS_PATH} exact={true}>
